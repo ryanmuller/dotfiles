@@ -2,6 +2,8 @@
 
 ## Stuff I use
 
+Desktop
+
 tool | use | install notes
 -----|-----|--------------
 homebrew | OS X package manager |
@@ -14,7 +16,12 @@ tmux | [long running processes](https://robots.thoughtbot.com/tmux-only-for-long
 [t](https://github.com/sferik/t) | Twitter | `gem install t`
 [ddg](https://github.com/jshrake/ddg) | DuckDuckGo search | `pip install ddg`
 pdfgrep | grep pdfs | `brew install pdfgrep`
-pianobar (with [PianoKeys](https://github.com/shayne/PianoKeys) | Pandora player |
+pianobar + [PianoKeys](https://github.com/shayne/PianoKeys) | Pandora player | `brew install pianobar`
+
+iOS
+
+tool | use
+-----|----
 Evernote | recipes |
 Dropbox | documents |
 OneDrive | photos |
@@ -26,3 +33,4 @@ Podcasts | podcasts |
 
 * Don't rely on janus for vim
 * Try fish
+* My own tools: wwwtxt, rymtracks
