@@ -1,0 +1,25 @@
+save-path ~/Dropbox/texts/inbox
+browser "open %u"
+feed-sort-order unreadarticlecount-asc
+macro o set browser "youtube-dl %u" ; open-in-browser-and-mark-read ; set browser "open %u"
+refresh-on-startup yes
+reload-time 30
+
+# solarized color scheme for newsbeuter <http://www.newsbeuter.org/>
+# more on solarized: http://ethanschoonover.com/solarized
+
+color listnormal color244 color234
+color listfocus  color166 color235
+color info       color136 color235
+color background color244 color234
+color article    color244 color234
+
+unbind-key j
+unbind-key k
+unbind-key g
+unbind-key G
+bind-key \ reload-all
+bind-key j down
+bind-key k up
+bind-key ^u pageup
+bind-key ^d pagedown

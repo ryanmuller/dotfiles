@@ -1,0 +1,24 @@
+color inkpot
+
+" bind K to grep word under cursor
+nnoremap K :Ack "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+" yank text to the OS X clipboard
+noremap <leader>y "*y
+noremap <leader>yy "*Y
+
+" preserve indentation while pasting text from the OS X clipboard
+noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
+
+" open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
+" quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" clear search highlight
+nmap <leader><space> :nohlsearch<CR>
