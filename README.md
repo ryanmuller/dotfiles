@@ -3,9 +3,10 @@
 ## Stuff I use
 
 tool | use | install notes
------|-----|--------
+-----|-----|--------------
 homebrew | OS X package manager |
 Alfred | search & actions |
+[Monosnap](https://monosnap.com/) | screenshots | set up with web server
 iTerm2 | shell |
 vim | text editing |
 tmux | [long running processes](https://robots.thoughtbot.com/tmux-only-for-long-running-processes) |
