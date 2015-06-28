@@ -1,9 +1,12 @@
+set shell=bash
 set nocompatible
 filetype on
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
+Bundle 'ciaranm/inkpot'
+Bundle 'flazz/vim-colorschemes'
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
