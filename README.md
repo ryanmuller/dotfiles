@@ -17,6 +17,7 @@ tmux | [long running processes](https://robots.thoughtbot.com/tmux-only-for-long
 [ddg](https://github.com/jshrake/ddg) | DuckDuckGo search | `pip install ddg`
 pdfgrep | grep pdfs | `brew install pdfgrep`
 pianobar + [PianoKeys](https://github.com/shayne/PianoKeys) | Pandora player | `brew install pianobar`
+[nvALT](http://brettterpstra.com/projects/nvalt/) | notes | install color scheme
 
 iOS
 
@@ -26,7 +27,6 @@ Evernote | recipes |
 Dropbox | documents |
 OneDrive | photos |
 [Documents](https://readdle.com/products/documents) | mobile reading |
-Notes | notes |
 Podcasts | podcasts |
 
 ## TODO
