@@ -8,11 +8,11 @@ reload-time 30
 # solarized color scheme for newsbeuter <http://www.newsbeuter.org/>
 # more on solarized: http://ethanschoonover.com/solarized
 
-color listnormal color244 color234
+color listnormal color250 color234
 color listfocus  color166 color235
 color info       color136 color235
-color background color244 color234
-color article    color244 color234
+color background color250 color234
+color article    color250 color234
 
 unbind-key j
 unbind-key k
