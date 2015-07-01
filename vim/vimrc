@@ -7,6 +7,8 @@ call vundle#rc()
 
 Bundle 'ciaranm/inkpot'
 Bundle 'flazz/vim-colorschemes'
+Bundle 'kien/ctrlp.vim'
+Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
@@ -39,10 +41,15 @@ set ignorecase                                               " case-insensitive 
 set incsearch                                                " search as you type
 set laststatus=2                                             " always show statusline
 set number                                                   " show line numbers
+set shiftwidth=2
 set smartcase                                                " case-sensitive search if any caps
 set softtabstop=2                                            " insert mode tab and backspace use 2 spaces
 set splitbelow                                               " open new split panes to bottom
 set splitright                                               " open new split panes to right
+
+" backup and swap files
+set backupdir^=~/.vim/_backup//
+set directory^=~/.vim/_temp//
 
 " quicker window movement
 nnoremap <C-j> <C-w>j
@@ -71,3 +78,6 @@ nmap <silent> <leader>cd :lcd %:h<CR>
 
 " Create the directory containing the file in the buffer
 nmap <silent> <leader>md :!mkdir -p %:p:h<CR>
+
+" set silver searcher as the ack program
+let g:ackprg = 'ag --vimgrep'
