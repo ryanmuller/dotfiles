@@ -23,6 +23,25 @@ color inkpot
 
 let mapleader = '\'
 
+set autoindent
+set backupdir^=~/.vim/_backup//
+set clipboard=unnamed
+set directory^=~/.vim/_temp//
+set encoding=utf-8
+set expandtab                                                " expand tabs to spaces
+set hlsearch
+set ignorecase                                               " case-insensitive search
+set incsearch                                                " search as you type
+set laststatus=2                                             " always show statusline
+set number                                                   " show line numbers
+set ruler
+set shiftwidth=2
+set smartcase                                                " case-sensitive search if any caps
+set softtabstop=2                                            " insert mode tab and backspace use 2 spaces
+set splitbelow                                               " open new split panes to bottom
+set splitright                                               " open new split panes to right
+set textwidth=120
+
 " bind K to grep word under cursor
 nnoremap K :Ack "\b<C-R><C-W>\b"<CR>:cw<CR>
 
@@ -32,24 +51,6 @@ noremap <leader>yy "*Y
 
 " preserve indentation while pasting text from the OS X clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
-
-set autoindent
-set encoding=utf-8
-set expandtab                                                " expand tabs to spaces
-set hlsearch
-set ignorecase                                               " case-insensitive search
-set incsearch                                                " search as you type
-set laststatus=2                                             " always show statusline
-set number                                                   " show line numbers
-set shiftwidth=2
-set smartcase                                                " case-sensitive search if any caps
-set softtabstop=2                                            " insert mode tab and backspace use 2 spaces
-set splitbelow                                               " open new split panes to bottom
-set splitright                                               " open new split panes to right
-
-" backup and swap files
-set backupdir^=~/.vim/_backup//
-set directory^=~/.vim/_temp//
 
 " quicker window movement
 nnoremap <C-j> <C-w>j
