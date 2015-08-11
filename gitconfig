@@ -2,6 +2,7 @@
   ci = commit
   co = checkout
   st = status
+  lg = log --max-count=12 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [user]
 	name = Ryan Muller
 	email = cognitionmachine@gmail.com
